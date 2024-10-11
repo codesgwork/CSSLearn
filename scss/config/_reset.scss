@@ -1,0 +1,107 @@
+/* RESET  STYLE CODE*/
+/* NORMALIZE CSS*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /*
+  Root font
+  1rem = 16px; default
+  */
+  font-size: 62.5%; //new default // 1rem = 10px
+  /* Calculation => 10/16 = 62.5%*/
+
+  /*
+  1rem = 9px, 9/16 = 56.25%
+  1rem = 8px, 8/16 = 50%
+  1rem = 14px, 14/16 = 87.5%
+  */
+}
+body {
+  font-family: $contentFont;
+  box-sizing: border-box;
+  background-color: $grey-50;
+  color: $black;
+  line-height: 1.5;
+  font-size: 1.7rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $titleFont;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: $titleFont;
+  font-size: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: $grey-900;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+button {
+  letter-spacing: 1px;
+  padding: 1rem;
+  border-style: none;
+  font-family: $tagFont;
+  font-size: 1.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $grey-900;
+  border: 1px solid $grey-300;
+  color: $white;
+
+  &:hover {
+    background-color: $blue-500;
+    color: $grey-50;
+  }
+  &:active {
+    border: 1px solid $white;
+    outline: none;
+  }
+}

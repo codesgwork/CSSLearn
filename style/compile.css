@@ -1,0 +1,113 @@
+/* BASE STYLE CODE*/
+/* BASE STYLE CODE*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*  color   */
+/* RESET  STYLE CODE*/
+/* NORMALIZE CSS*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /*
+  Root font
+  1rem = 16px; default
+  */
+  font-size: 62.5%;
+  /* Calculation => 10/16 = 62.5%*/
+  /*
+  1rem = 9px, 9/16 = 56.25%
+  1rem = 8px, 8/16 = 50%
+  1rem = 14px, 14/16 = 87.5%
+  */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  background-color: #f8f9fc;
+  color: #222;
+  line-height: 1.5;
+  font-size: 1.7rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0f172a;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+button {
+  letter-spacing: 1px;
+  padding: 1rem;
+  border-style: none;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #334155;
+  border: 1px solid #cbd5e1;
+  color: #fff;
+}
+button:hover {
+  background-color: #0f172a;
+  color: #f8f9fc;
+}
+button:active {
+  border: 1px solid #f45d5d;
+  outline: none;
+}
+
+/*APP STYLE CODE*/
+/*APP STYLE CODE*/
+
+/*# sourceMappingURL=compile.css.map */

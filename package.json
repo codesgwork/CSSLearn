@@ -1,0 +1,15 @@
+{
+  "name": "csslearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch-sass": "sass --watch ./scss/main.scss ./style/compile.css"
+  },
+  "keywords": [],
+  "author": "skyinnk",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.4"
+  }
+}
